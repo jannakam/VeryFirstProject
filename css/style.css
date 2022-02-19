@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+header {
+    background: #ff8800;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav img.logo {
+    width: 129px;
+}
+
+nav ul.navList {
+    margin: 0;
+    padding:0;
+}
+
+nav ul.navList li {
+    display: inline;
+    margin-left: 16px;
+}

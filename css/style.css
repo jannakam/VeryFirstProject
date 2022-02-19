@@ -134,6 +134,7 @@ nav ul.navList li {
 footer {
     background-color: #0d0e1b;
     color: white;
+    padding: 16px 0;
 }
 
 footer span {
